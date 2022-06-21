@@ -42,7 +42,7 @@ void loop()
 {
     int sensorVal = analogRead(SENSOR);
 
-    sensorVal = map(sensorVal, 20, 358, -40, 125);
+    sensorVal = map(sensorVal, 20, 358, -40, 125);  //maps/adjusts the sensor's value to degrees in Celsius
 
     if(sensorVal <= 20){
         digitalWrite(LEDGREEN, HIGH);
@@ -63,8 +63,6 @@ void loop()
         digitalWrite(LEDYELLOW, LOW);
         digitalWrite(LEDRED, HIGH);
         tone(BUZZER, 1200);
-    }else{
-        noTone(BUZZER);
     }
 
     if(sensorVal >= 25){
