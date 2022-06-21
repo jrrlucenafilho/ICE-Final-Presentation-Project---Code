@@ -77,6 +77,6 @@ void loop()
     lcd.print("Temp: ");
     lcd.print(sensorVal);
     lcd.print(" C");
-    delay(500);
+    delay(1000);
     lcd.clear();
 }
