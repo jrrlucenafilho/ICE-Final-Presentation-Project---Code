@@ -1,5 +1,4 @@
 #include <Arduino.h>
-
 #include <LiquidCrystal.h>
 
 #define LEDGREEN 2    //defines leds
