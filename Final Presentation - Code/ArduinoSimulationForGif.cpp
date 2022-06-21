@@ -6,11 +6,11 @@
 #define LEDYELLOW 3
 #define LEDRED 4
 #define SENSOR A0   //defines temp sensor
-#define INPUT1 6    //defnies inputs H-bridge
+#define INPUT1 6    //defines inputs for H-bridge
 #define INPUT2 5
 #define BUZZER 7
 
-LiquidCrystal lcd (8, 9, 10, 11, 12, 13); //object for liquid crystal, with used ports
+LiquidCrystal lcd (8, 9, 10, 11, 12, 13); //object for liquid crystal, with the used ports
 
 void TurnOnFan()
 {
