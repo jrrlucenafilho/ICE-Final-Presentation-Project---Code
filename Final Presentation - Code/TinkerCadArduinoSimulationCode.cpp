@@ -1,4 +1,4 @@
-#include <Arduino.h>
+#include <Arduino.h>    //not needed when using the arduino IDE
 #include <LiquidCrystal.h>
 
 #define LEDGREEN 2    //defines leds
