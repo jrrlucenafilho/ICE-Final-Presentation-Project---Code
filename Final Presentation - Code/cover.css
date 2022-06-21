@@ -1,0 +1,97 @@
+html {
+  font-family: Helvetica;
+  display: inline-block;
+  margin: 0px auto;
+  text-align: center;
+} 
+h1{
+  color: #0F3376;
+  padding: 2vh;
+  font-size: 100%;
+}
+p{
+  font-size: 1.5rem;
+}
+.button {
+  display: inline-block;
+  background-color: #0F3376;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  height: 15%;
+  padding: 16px 40px;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+header{
+  background-color: #0F3376;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  top:0;
+  left:0;  
+  width: 100%;
+  z-index:1;
+  float:left;
+}
+h2{
+  color: #ffff;
+  text-align: start;
+  padding-left: 5%;
+}
+
+.area{
+  display: inline-block;
+  justify-content: center;
+  position: relative;
+  padding: 20px;
+}
+.ddddiv{
+  padding: 10px;
+  margin-top: 50px;
+  display: inline-block;
+  color: #0F3376;
+  width: 15%;
+  height: 50px;
+  border: 10px solid;
+  border-radius: 40px 40px 40px 0px;
+}
+
+.grafico-circular {
+  width: 30%;
+  margin: 5% auto;
+  justify-content: space-around;
+  display: inline-block;
+}
+
+.circulo {
+  fill: none;
+  stroke: #CCCCCC;
+  stroke-width: 4px;
+}
+
+.circulo-progresso {
+  fill: none;
+  stroke-width: 4px;
+  animation: progress 1s ease-out forwards;
+  stroke: #0F3376;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.label {
+  fill: #343F4B;
+  font-size: 0.2em;
+  text-transform: uppercase;
+  text-anchor: middle;
+}
+
+.label.percentage {
+  font-size: 0.5em;
+}
