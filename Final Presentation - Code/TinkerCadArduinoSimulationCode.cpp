@@ -42,7 +42,7 @@ void loop()
 {
     int sensorVal = analogRead(SENSOR);
 
-    sensorVal = map(sensorVal, 20, 358, -40, 125);  //maps/adjusts the sensor's value to degrees in Celsius
+    sensorVal = map(sensorVal, 20, 358, -40, 125);  //maps/adjusts the sensor's range of values to degrees in Celsius
 
     if(sensorVal <= 20){
         digitalWrite(LEDGREEN, HIGH);
